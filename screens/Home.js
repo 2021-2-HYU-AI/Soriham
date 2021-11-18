@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
     },
     header: {
         paddingHorizontal: 10,
-        width: SCREEN_WIDTH,
         height: 65,
         justifyContent: "center",
         borderBottomColor: "black",
