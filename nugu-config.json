@@ -1,8 +1,0 @@
-{
-	"OAuthServerUrl": "https://api.sktnugu.com",
-	"OAuthClientId": "12bf11ad-b8df-4e1b-bc8e-90a02390e57b",
-	"OAuthClientSecret": "4947469b-e201-4065-bbd4-c831ead4b537",
-	"OAuthRedirectUri": "",
-	"PoCId": "trial.common.sdk",
-	"DeviceTypeCode": "TRIAL_COMMON_SDK"
-}
