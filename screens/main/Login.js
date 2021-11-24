@@ -18,7 +18,7 @@ const Login = () => {
         <View style={styles.container}>
             <StatusBar style="auto" />
             <View style={styles.logoView}>
-                <Image source={require('../assets/NUGU.png')} />
+                
             </View>
             <TextInput 
                 style={styles.textInput}
