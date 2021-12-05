@@ -7,18 +7,18 @@ import {
     Dimensions,
     Image,
     TextInput,
-    Button,
     TouchableOpacity
     } from "react-native";
 
+
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
-const Login = () => {
+const Login = ({navigation}) => {
     return (
         <View style={styles.container}>
             <StatusBar style="auto" />
             <View style={styles.logoView}>
-                
+                <Image source={require('../../assets/img/NUGU.png')} />
             </View>
             <TextInput 
                 style={styles.textInput}
@@ -28,7 +28,9 @@ const Login = () => {
                 style={styles.textInput}
                 placeholder={"비밀번호"}
             />
-            <TouchableOpacity style={styles.outterButtonView}>
+            <TouchableOpacity 
+                onPress={() => navigation.navigate('Main') }
+                style={styles.outterButtonView}>
                 <View style={styles.innerButtonView}>
                     <Text style={styles.buttonText}>로그인</Text>
                 </View>

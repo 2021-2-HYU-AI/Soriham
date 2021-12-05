@@ -39,7 +39,7 @@ const VoiceSetting = ({navigation: {goBack}, navigation}) => {
                         <Text style={styles.menuTitle}>세부설정</Text>
                         <Text style={styles.menuText}>기본 보이스가 아닌 다른 TTS로 보이스가 설정 가능합니다.</Text>
                     </View>
-                    <TouchableOpacity onPress={() => navigation.navigate('Detail Setting')}>
+                    <TouchableOpacity onPress={() => navigation.navigate('VoiceSettingDetail')}>
                         <AntDesign name="right" size={24} color="black" />
                     </TouchableOpacity>
                 </View>
