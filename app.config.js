@@ -2,8 +2,8 @@ import 'dotenv/config';
 
 export default {
   expo: {
-    name: 'expo-firebase-auth-example',
-    slug: 'expo-firebase-auth-example',
+    name: 'Soriham',
+    slug: 'Soriham',
     version: '1.0.0',
     orientation: 'portrait',
     icon: './assets/icon.png',
