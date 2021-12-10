@@ -18,7 +18,7 @@ const Login = ({navigation}) => {
         <View style={styles.container}>
             <StatusBar style="auto" />
             <View style={styles.logoView}>
-                <Image source={require('../../assets/img/NUGU.png')} />
+                <Image source={require('../../assets/img/Soriham.png')} />
             </View>
             <TextInput 
                 autoCapitalize='none'
